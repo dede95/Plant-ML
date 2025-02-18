@@ -1,9 +1,9 @@
 # Plant ML
 Plant ML is an experiment exploring how machine learning and computer vision can be used to interact with natural elements. This project was developed within a two-day hackathon for the **bio techno art exhibition**. Raed more about the project [here](https://adeolao.carrd.co/#project-plantml-biotechno). 
 
-![A motorised plant scuplture controlled by hand gestures](images/final-project.gif?raw=true)
+<img src="images/final-project-1.gif" alt="A motorised plant scuplture controlled by hand gestures" width="300"/>
 
-![Poster of the bio techno art exhbition](images/Instagram%20post%20-%203.png?raw=true)
+<img src="images/Instagram post - 3.png" alt="Poster of the bio techno art exhbition" width="300"/>
 
 This project uses Python to call a tensorflow model to recoginse hand gestures (trained through Google's Teachable Machine) and send those outputs to Arduino to control a motor. 
 
