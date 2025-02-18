@@ -1,0 +1,4 @@
+opencv-python==4.11
+pyserial==3.5
+requests==2.32
+numpy==1.24
