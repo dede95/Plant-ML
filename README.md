@@ -9,7 +9,7 @@ Plant ML is an experiment exploring how machine learning and computer vision can
 
 This project uses Python to call a tensorflow model to recoginse hand gestures (trained through Google's Teachable Machine) and send those outputs to Arduino to control a motor. 
 
-![Diagram of how it works](images/plant_ml_diagram_1.png)
+![Diagram of how it works](images/plant_ml_diag.png)
 
 ## Setup 
 
