@@ -17,6 +17,8 @@ This project uses Python to call a tensorflow model to recoginse hand gestures (
 - Arduino board (UNO R3 is used in this project)
 - Trained tensorflow image recignition model ([Google's Teachable Machine](https://teachablemachine.withgoogle.com/) is used to train)
 - A 3V-6V DC motor
+- A dual 16-pin motor driver IC (The L293D is used in this project)
+- Power supply (set at 5V)
 
 ### Code installation
 
@@ -26,6 +28,7 @@ This project uses Python to call a tensorflow model to recoginse hand gestures (
 
 ### Arduino setup
 
+To set up the Arduino UNO, please follow the following diagram to correctly set up the motor: 
 ![Simulation snapshot of a 3 to 6 volts DC motor connected to an Arduino UNO R3 baord and 5V power supply](images/plant-ml_arduino_set_up.png?raw=true)
 
 Upload the `plant_ml.ino` code to the Arduino board.
@@ -35,3 +38,5 @@ Upload the `plant_ml.ino` code to the Arduino board.
 To run the project, run the following:
 
 `python plant_ml.py`
+
+Enjoy! 
