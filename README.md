@@ -16,6 +16,7 @@ This project uses Python to call a tensorflow model to recoginse hand gestures (
 - [Arduino IDE](https://www.arduino.cc/en/software) 
 - Arduino board (UNO R3 is used in this project)
 - Trained tensorflow image recignition model ([Google's Teachable Machine](https://teachablemachine.withgoogle.com/) is used to train)
+- A 3V-6V DC motor
 
 ### Code installation
 
