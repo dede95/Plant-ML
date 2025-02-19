@@ -22,11 +22,20 @@ This project uses Python to call a tensorflow model to recoginse hand gestures (
 - A dual 16-pin motor driver IC (The L293D is used in this project)
 - Power supply (set at 5V)
 
-### Code installation
+### Code installation & setup
 
 **Install the requirements**: 
 
 `pip install tensorflow tensorflowjs numpy opencv-python pyserial`
+
+To train your own model, created a new project on [Teachable Machine](https://teachablemachine.withgoogle.com/train):
+
+- Select the type *Image Model*.
+- Capture pictures of your hand open (Class 0), hand closed (Class 1) and of a background/doing nothing (Class 2)
+- Select "Train model" and export a Tensorflow model 
+- Add the exported Tensorflow model (`keras_model.h5`) to the `plant_ml_model/` folder.
+
+If you want to play around with the model (i.e. add more or different classes), remember to adjust `plant_ml.py` and `plant_ml.ino` and to match the classes and number of classes. 
 
 ### Arduino setup
 
