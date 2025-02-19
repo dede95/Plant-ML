@@ -30,19 +30,19 @@ This project uses Python to call a tensorflow model to recoginse hand gestures (
 
 To train your own model, created a new project on [Teachable Machine](https://teachablemachine.withgoogle.com/train):
 
-- Select the type *Image Model*.
-- Capture pictures of your hand open (Class 0), hand closed (Class 1) and of a background/doing nothing (Class 2)
-- Select "Train model" and export a Tensorflow model 
-- Add the exported Tensorflow model (`keras_model.h5`) to the `plant_ml_model/` folder.
+1. Select the type *Image Model*.
+2. Capture pictures of your hand open (Class 0), hand closed (Class 1) and of a background/doing nothing (Class 2)
+3. Select "Train model" and export a Tensorflow model 
+4. Add the exported Tensorflow model (`keras_model.h5`) to the `plant_ml_model/` folder.
 
-If you want to play around with the model (i.e. add more or different classes), remember to adjust `plant_ml.py` and `plant_ml.ino` and to match the classes and number of classes. 
+If you want to play around with the model (i.e. add more or different classes), remember to adjust `plant_ml.py` and `plant_ml_arduino/plant_ml_arduino.ino` to match the classes and number of classes. 
 
 ### Arduino setup
 
 To set up the Arduino UNO, please follow the following diagram to correctly set up the motor: 
 ![Simulation snapshot of a 3 to 6 volts DC motor connected to an Arduino UNO R3 baord and 5V power supply](images/plant-ml_arduino_set_up.png?raw=true)
 
-Upload the `plant_ml.ino` code to the Arduino board.
+Upload the `plant_ml_arduino/plant_ml_arduino.ino` code to the Arduino board.
 
 ## Run the code
 
